@@ -33,6 +33,10 @@ h3{
     font-size:1.1rem;
     margin:3rem 2rem 1rem;
 }
+p{
+    font-size:1.1rem;
+    margin:3rem 2rem 1rem;
+}
 
 #header {
     /* display:flex;  */
@@ -150,10 +154,32 @@ img{
 
 .links{
     text-decoration: underline;
-
 }
 
+.img_container{
+    display:flex;
+    
+    .img_code{
+        width: 28%;
+        margin:0.5rem;
+    }
+    .img_page{
+        width: 65%;
+        margin:0.5rem;
+    }
 
+    .img_code_mob{
+        width: auto;
+        height:40rem;
+        margin:0.5rem;
+    }
+    .img_page_mob{
+        width: auto;
+        height:40rem;
+        margin:0.5rem;
+
+    }
+}
 
 
 
