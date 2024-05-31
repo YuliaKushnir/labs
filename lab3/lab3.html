@@ -10,23 +10,19 @@
 
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
 
-    <title>Лабораторна робота №3</title>
+    <title>Лабораторна робота №7</title>
 </head>
 
 <body>
     <header id="header">
         <h1>Звіти про виконання лабораторних робіт</h1>
-        <h2>з дисципліни "Проектування веб-застосувань"</h2>
+        <h2>з дисципліни "Основи клієнтських розробок"</h2>
         <h3>Виконала студентка групи ЗПІ-ЗП 31 Кушнір Юлія</h3>
 
         <nav class="navbar">
-            <a href="../index.html">Лабораторна робота №1</a>
+            <a href="../lab1/lab1.html">Лабораторна робота №1</a>
             <a href="../lab2/lab2.html">Лабораторна робота №2</a>
             <a href="../lab3/lab3.html">Лабораторна робота №3</a>
-            <a href="../lab4/lab4.html">Лабораторна робота №4</a>
-            <a href="../lab5/lab5.html">Лабораторна робота №5</a>
-            <a href="../lab6/lab6.html">Лабораторна робота №6</a>
-            <a href="../lab7/lab7.html">Лабораторна робота №7</a>
         </nav>
     </header>
 
@@ -34,108 +30,56 @@
         
         <a href="#" class="logo"><i class="fas fa-graduation-cap"></i><br><br>Лабораторна робота №3 <p>на початок сторінки</p></a>
 
-        <button onclick="changingContent1()">Тема, мета. Місце розташування сайту</button>
-        <button class="big_button" onclick="changingContent2()">Завдання№1. Зовнішній вигляд. Код</button>
-        <button class="big_button" onclick="changingContent3()">Завдання №2. Таблична і блокова верстка</button>
-        <button onclick="changingContent4()">Завдання №3. Флексбокс</button>
-        <button onclick="changingContent5()">Висновки</button>
+        <button onclick="changingContent1()">Тема, мета</button>
+        <button onclick="changingContent2()">Фільтр елементів</button>
+        <button onclick="changingContent3()">Приховування елементів</button>
+        <button onclick="changingContent4()">Робота з формою</button>
     </nav>
 
     <div id="content">
         <p>Оберіть пункт лабораторної роботи...</p>
-        
+        <a href="https://yuliakushnir.github.io/Lab7/index.html" style="text-decoration: underline;">Звіт про виконані завдання лабораторної роботи</a><br>
     </div>
-
-
+    
     <main id="button1">
-        <p><b>Тема:</b> Верстка HTML-документу. Блокова верстка. Верстка засобами CSS Flexbox</p> <br>
-        <p><b>Мета:</b> придбати практичні навички роботи  верстки сторінок засобами CSS, верстки на основі плаваючих елементів, з’ясувати переваги та недоліки типів макетів веб-сторінок</p>
-        <p>придбати практичні навички роботи  верстки сторінок засобами CSS та FLEXBOX</p><br><br>
-        <a href="https://yuliakushnir.github.io/zpi-zp31CoffeeShop/" class="links">Розташування веб-застосунка</a><br><br>
-        <a href="https://yuliakushnir.github.io/labs/" class="links">Розташування звітного HTML-документа</a>
+        <p><b>Тема:</b> функціональне застосування JavaScript у HTML-документі. Класи, об'єкти, функції в мові JavaScript. Події та обробка подій. Програмна взаємодія з HTML документами на основі DOM API </p> <br>
+        <p><b>Мета:</b> придбати практичні навички роботи маніпулювання інформаційним вмістом Web-документа засобами мови JavaScript</p><br><br>
+        <a href="https://yuliakushnir.github.io/Lab7/index.html" style="text-decoration: underline;">Звіт про виконані завдання лабораторної роботи</a><br>
+
     </main>
 
     <main id="button2">
-        <h2>Макет сайту</h2>
-        <img src="img/type.png">
-        <img src="img/type-code.png">
-
-        <img src="img/type2.png">
-
+        <h4>Застосовано доступ до об'єкта по id та назві класу.</h4>
+        <p>Застосовуємо фільтр для об'єктів на сторінці за іменем класу</p><br>
+        <img src="img/7_1.png"><br>
+        <p>Коректність роботи:</p>
+        <p>Застосовано фільтр "крафтова суміш"</p>
+        <img src="img/7_4.png"><br>
+        <p>Застосовано фільтр "зерна"</p>
+        <img src="img/7_5.png"><br>
     </main>
-
 
     <main id="button3">
-        <h3>Таблична верстка</h3>
-        <img src="img/grid.png">
-        <img src="img/grid-res.gif">
-
-
-        <h3>Блокова верстка</h3>
-        <img src="img/box.png">
-        <img src="img/block2.png">
-
+        <h4>Застосовано доступ до об'єкта по id та назві класу.</h4>
+        <p>Встановлюємо властивість textContent</p>
+        <p>Змінюємо стиль</p><br>
+        <img src="img/7_2.png"><br>
+        <p>Коректність роботи:</p>
+        <p>Частина тексту прихована для зручності перегляду сторінки</p>
+        <img src="img/7_6.png"><br>
+        <p>Текст розгорнуто для прочитання</p>
+        <img src="img/7_7.png"><br>
     </main>
-
 
     <main id="button4">
-        <h3>Застосований флексбокс</h3>
-        <img src="img/flex!.png">
-        <img src="img/flex-2.png">
-        <img src="img/flex.png">
-        <img src="img/флекс.png">
-
+        <h4>Дані з форми передаються без перезавантаження сторінки</h4>
+        
+        <img src="img/7_8 forms code.png"><br>
+        <p>Коректність роботи:</p>
+        <p>Коректно виводиться в консоль введений користувачем пароль і пошта</p>
+        <img src="img/7_9.png"><br>
     </main>
-
-
-    <main id="button5">
-        <h3>Висновки</h3>
-        <p>Практично підкріплено знання під час виконання лабораторної роботи, з табличної і блокової верстки </p>
-        <p>Переваги і недоліки:</p>
-        <ol type="I">
-            <li>Таблична верстка
-                <ul style="list-style-type:square;">
-                    <li>Переваги
-                        <ul>
-                            <li>легкість використання</li>
-                            <li>адаптивність до екрану</li>
-                        </ul>
-                        
-                    </li>
-                    <li>Недоліки
-                        <ul>
-                            <li>збільшений розмір коду</li>
-                            <ll>обмеження можливостей стилізації та презентації макету</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-
-            <li>Флексбокс верстка
-                <ul style="list-style-type:square;">
-                    <li>Переваги
-                        <ul>
-                            <li>Гарна адаптивність до різних розмірів екрану і орієнтації</li>
-                            <li>Легкість у розміщенні елементів по горизонталі або вертикалі</li>
-                            <li>зрозумілий синтаксис</li>
-                        </ul>
-                        
-                    </li>
-                    
-                    <li>Недоліки
-                        <ul>
-                            <li>не виявлені</li>
-                        </ul>
-                    </li>
-                    
-
-                </ul>
-            </li>
-
-        </ol>
-
-    </main>
-
-
-    
 </body>
+
+
+
